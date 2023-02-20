@@ -1,0 +1,26 @@
+@import "./styles/styleTicket.css";
+* {
+  pading: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  -webkit-font-smoothing: antialiased;
+  --white: #ffffff;
+  --purple-700: #271a45;
+  --purple-500: #8257e5;
+  --black-100: #000000a3;
+  --black-900: black;
+  --gray-100: #00000052;
+}
+
+body {
+  background: var(--purple-700);
+  background: linear-gradient(
+    0deg,
+    var(--purple-700) 35%,
+    var(--purple-500) 100%
+  );
+  background-repeat: no-repeat;
+  font-family: "Rubik", sans-serif;
+}

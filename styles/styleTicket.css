@@ -1,0 +1,104 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1080px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flight-info {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 24px;
+  border-bottom: 2px dashed var(--gray-100);
+  padding: 1.5rem;
+  width: 20.4rem;
+}
+.flight-info span {
+  color: var(--black-100);
+  font-size: 0.9rem;
+}
+.flight-number {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+.departure {
+  display: flex;
+  justify-content: space-between;
+}
+.box2 {
+  text-align: right;
+}
+.box2 time span {
+  vertical-align: text-top;
+  font-size: smaller;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--black-900);
+}
+.passanger-info {
+  background-color: var(--white);
+  border-radius: 24px;
+  border-bottom: 2px dashed var(--gray-100);
+  width: 20.4rem;
+  padding: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.passanger-info span {
+  color: var(--black-100);
+  font-size: 0.9rem;
+}
+.bording-info {
+  background-color: var(--white);
+  border-radius: 24px;
+  border-bottom: 1px dashed var(--gray-100);
+  padding: 1.5rem;
+  width: 20.4rem;
+}
+.gate-info img {
+  width: 10rem;
+}
+.bording-info span {
+  color: var(--black-100);
+  font-size: 0.9rem;
+}
+.bording-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  transition: all 1s;
+}
+.bording-info .bording-text {
+  margin: 0.5rem auto;
+}
+.bording-info:hover {
+  transform: translate(50px, 60px);
+}
+.gate-info {
+  display: flex;
+  flex-direction: column;
+}
+.gate-info time {
+  background: var(--purple-500);
+  color: var(--white);
+  padding: 0.2rem 0.3rem;
+  border-radius: 8px;
+}
+.text {
+  color: var(--white);
+  padding: 1rem 0;
+  text-align: center;
+}
+.text h2 {
+  font-weight: 500;
+}
+.bold-text {
+  font-weight: bold;
+}
