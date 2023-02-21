@@ -79,17 +79,20 @@
   margin: 0.5rem auto;
 }
 .bording-info:hover {
-  transform: translate(50px, 60px);
+  transform: translate(60px, 10px);
 }
 .gate-info {
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
 }
 .gate-info time {
   background: var(--purple-500);
   color: var(--white);
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0;
   border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
 }
 .text {
   color: var(--white);
